@@ -13,3 +13,5 @@ pool:
 
 jobs:
 - template: src\orchestrator.yml@UDP
+  parameters:
+    resourceType: nodejs
